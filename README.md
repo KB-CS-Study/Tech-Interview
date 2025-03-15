@@ -1,5 +1,12 @@
 # Tech-Interview
+## 📌 스터디원 구성 (8명)
 
+| 프로필 | 이름 | 프로필 | 이름 |
+|--------|------|--------|------|
+| <img src="https://avatars.githubusercontent.com/icegosimperson?v=4" width="100"> | [이혜원](https://github.com/icegosimperson) | <img src="https://avatars.githubusercontent.com/minijae011030?v=4" width="100"> | [강민재](https://github.com/minijae011030) |
+|  | [권채린]() | <img src="https://avatars.githubusercontent.com/NangManBo?v=4" width="100"> | [김보성](https://github.com/NangManBo) |
+| <img src="https://avatars.githubusercontent.com/0woy?v=4" width="100"> | [박윤아](https://github.com/0woy) | <img src="https://avatars.githubusercontent.com/westjin?v=4" width="100"> | [양서진](https://github.com/westjin) |
+| <img src="https://avatars.githubusercontent.com/ockko?v=4" width="100"> | [옥가영](https://github.com/ockko) | <img src="https://avatars.githubusercontent.com/beenvyn?v=4" width="100"> | [최예빈](https://github.com/beenvyn) |
 ## **📌  스터디 운영 일정**
 **🚀 2025년 3월 19일(월) ~ 8월 13일(목)까지 CS 스터디 일정 & 진도 계획**
 
