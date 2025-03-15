@@ -8,7 +8,7 @@
 | <img src="https://avatars.githubusercontent.com/0woy?v=4" width="100"> | [박윤아](https://github.com/0woy) | <img src="https://avatars.githubusercontent.com/westjin?v=4" width="100"> | [양서진](https://github.com/westjin) |
 | <img src="https://avatars.githubusercontent.com/ockko?v=4" width="100"> | [옥가영](https://github.com/ockko) | <img src="https://avatars.githubusercontent.com/beenvyn?v=4" width="100"> | [최예빈](https://github.com/beenvyn) |
 ## **📌  스터디 운영 일정**
-**🚀 2025년 3월 19일(월) ~ 8월 13일(목)까지 CS 스터디 일정 & 진도 계획**
+**🚀 2025년 3월 19일(월) ~ 8월 13일(수)까지 CS 스터디 일정 & 진도 계획**
 
 📅 **스터디 시작일:** **2025년 3월 19일 (수)**
 
