@@ -6,7 +6,7 @@
 | <img src="https://avatars.githubusercontent.com/icegosimperson?v=4" width="100"> | [이혜원](https://github.com/icegosimperson) | <img src="https://avatars.githubusercontent.com/minijae011030?v=4" width="100"> | [강민재](https://github.com/minijae011030) |
 | <img src="https://avatars.githubusercontent.com/chaelink?v=4" width="100">  | [권채린](https://github.com/chaelink) | <img src="https://avatars.githubusercontent.com/NangManBo?v=4" width="100"> | [김보성](https://github.com/NangManBo) |
 | <img src="https://avatars.githubusercontent.com/0woy?v=4" width="100"> | [박윤아](https://github.com/0woy) | <img src="https://avatars.githubusercontent.com/westjin?v=4" width="100"> | [양서진](https://github.com/westjin) |
-| <img src="https://avatars.githubusercontent.com/ockko?v=4" width="100"> | [옥가영](https://github.com/ockko) | <img src="https://avatars.githubusercontent.com/beenvyn?v=4" width="100"> | [최예빈](https://github.com/beenvyn) |
+| <img src="https://avatars.githubusercontent.com/ockko?v=4" width="100"> | [옥가연](https://github.com/ockko) | <img src="https://avatars.githubusercontent.com/beenvyn?v=4" width="100"> | [최예빈](https://github.com/beenvyn) |
 ## **📌  스터디 운영 일정**
 **🚀 2025년 3월 19일(수) ~ 8월 13일(수)까지 CS 스터디 일정 & 진도 계획**
 
