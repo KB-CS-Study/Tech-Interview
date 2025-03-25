@@ -22,7 +22,8 @@
 
 - 하드웨어나 복잡한 시스템 구조를 몰라도 응용 프로그램만 사용해서 컴퓨터를 쉽게 조작
 
-![image.png](attachment:c3dbbd67-a6a2-4b10-a0e8-2ca035e42d64:image.png)
+![image4](https://github.com/user-attachments/assets/46d01d45-379f-4559-96fc-5d5e1f437308)
+
 
 - 그림처럼 사용자는 그냥 멜론만 클릭해서 사용하면 운영체제가 알아서 하드웨어를 관리하여 쉽게 사용할 수 있도록 해줌!
 
@@ -36,7 +37,8 @@
   - 멜론 앱으로 음악, 크롬으로 검색, vscode로 코딩
     → 이 모든 프로세스가 동시에 돌아가도록 CPU 시간 분배
     -> 우선순위랑 상태, 요청 자원등을 보고 CPU가 계속 재분배 해줌!!
-    ![image.png](attachment:6f8e63de-4e28-4ddc-948d-ffa601df668c:image.png)
+    ![image3](https://github.com/user-attachments/assets/78cc42f6-6ca3-4dc7-bb89-2a2adb873f2f)
+
 
 ### 2. 메모리 관리
 
@@ -174,7 +176,9 @@
   1. 멜론 앱이 파일을 열려고 함
   2. 앱에서 open()이라는 시스템 콜을 요청 → 이를 통해 Kernel Mode로 전환
   3. 커널이 디스크에서 파일을 읽고 앱에 전달 → 하면 다시 User Mode로 전환
-  ![image.png](attachment:6b4ed4d2-dd13-40eb-b550-c470e8a91a9b:image.png)
+
+![image2](https://github.com/user-attachments/assets/8add1451-2f78-4f46-9913-96ebfeb4c757)
+
 
 ## ✅ 커널의 종류 (운영체제 아키텍처 관점)
 
@@ -261,7 +265,8 @@
 | 생성비용 | 큼                      | 작음                             |
 | 예시     | 크롬, 멜론 같은 앱 전체 | 음악 재생 + 다운로드 동시에 처리 |
 
-![image.png](attachment:fc390fe2-0a35-4b45-88f4-301f3cc51f8c:image.png)
+![image](https://github.com/user-attachments/assets/254d19f3-ee54-41a1-bddc-373df2f01f13)
+
 
 - 그림 설명
   - 이런식으로 하나의 프로레스를 집이라고 생각하고 스레드들은 안에서 일하는 사람들!
