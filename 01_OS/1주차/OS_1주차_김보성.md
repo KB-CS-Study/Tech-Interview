@@ -208,6 +208,29 @@
 - 하나가 죽어도 다른 프로세스엔 영향 X
 - 생성/전환 비용이 큼 (메모리, 리소스까지 따로 생성해야 하니까)
 
+## ✅ 프로세스 제어 블록(Process Control Block, PCB)
+![image](https://github.com/user-attachments/assets/2ab05f55-ce91-42d4-b2bb-ae61c4fb4cd1)
+
+
+- 프로세스 상태(Process State)
+    - new, ready, running, waiting, terminated 상태 중 하나에 해당됨
+    
+- 프로그램 카운터(Program Counter)
+    - 메모리의 다음 명령어 주소를 저장함
+    
+- CPU 레지스터(CPU registers)
+    - IR(Instruction Register), DR(Data Register), PC(Program Counter)와 같은 저장공간이 포함됨
+    
+- CPU 스케줄링 정보(CPU-scheduling information)
+    - 프로세스 실행 순서를 정하는 정보
+    
+- 메모리 관리 정보(Memory-management information)
+
+- 통계 정보(Accounting Information)
+    - 프로세스의 실행, 시간 제한, 실행 ID 등에 사용되는 CPU양의 정보
+    
+- 입/출력 상태 정보(I/O status information
+
 ## ✅ 프로세스 상태
 
 - 프로세스는 실행되는 동안 아래와 같은 상태를 가짐
@@ -222,7 +245,6 @@
 
 ➡ 운영체제는 이 상태 정보를 참고해서 어떤 프로세스에게 CPU를 줄지 결정함
 
----
 
 ## ✅ 왜 스케줄링이 필요한가?
 
