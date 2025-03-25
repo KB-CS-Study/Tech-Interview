@@ -87,6 +87,8 @@ CPU를 어떤 프로세스에게 언제, 얼마나 할당할 지 결정
 
 <img src="https://github.com/user-attachments/assets/d680ff1b-669d-4719-a4e0-fb7fa3c16199" width="200"/>
 
+<br>
+
 **커널(Kernel)이란?**
 
 > 커널은 운영체제의 핵심 부분으로, 하드웨어와 사용자 프로그램 사이를 중재하는 역할
@@ -141,20 +143,25 @@ EX) 프로그램이 파일을 저장하거나 메모리를 쓰고 싶을 때, �
 - 실행 중인 프로그램
 - OS가 자원을 할당하는 독립된 작업 단위
 - 고유한 주소 공간, 코드, 데이터, 힙, 스택을 가짐
+  
 <br>
 <br>
+
 ### **✅ 스레드(Thread)란?**
 
 - 프로세스 내에서 실행되는 작업의 흐름 단위
 - 같은 프로세스의 자원 중(코드, 데이터, 힙) 공유
 - 독립적인 스택과 PC(Program Counter)를 가짐
+
+  
 <br>
 <br>
 
 ### **✅ 프로세스 VS 스레드**
 
-![image](https://github.com/user-attachments/assets/d980216e-4ffe-44a6-9cd1-6ae064f2b423)
+<img src="https://github.com/user-attachments/assets/d980216e-4ffe-44a6-9cd1-6ae064f2b423" width="600" />
 
+<br>
 <br>
 
 ### **✅ 멀티 프로세스(Multi-Process)란?**
@@ -189,7 +196,7 @@ EX) 프로그램이 파일을 저장하거나 메모리를 쓰고 싶을 때, �
 
 ### **✅** ❔**언제 멀티 프로세스/멀티 스레드를 쓰면 좋을까?**
 
-![image](https://github.com/user-attachments/assets/0c1c0dfd-3e47-4f82-bc32-49e609c52e1c)
+<img src="https://github.com/user-attachments/assets/0c1c0dfd-3e47-4f82-bc32-49e609c52e1c" width="600"/>
 
 
 <br>
@@ -224,6 +231,6 @@ EX) 프로그램이 파일을 저장하거나 메모리를 쓰고 싶을 때, �
 ### 🔃 프로세스 컨텍스트 스위칭 VS 스레드 컨텍스트 스위칭
 
 
-![image](https://github.com/user-attachments/assets/d62d13b5-ddb2-4e52-8c49-5101508144f1)
+<img src="https://github.com/user-attachments/assets/d62d13b5-ddb2-4e52-8c49-5101508144f1" width="600" />
 
 <br>
