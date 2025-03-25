@@ -37,6 +37,7 @@
   - 멜론 앱으로 음악, 크롬으로 검색, vscode로 코딩
     → 이 모든 프로세스가 동시에 돌아가도록 CPU 시간 분배
     -> 우선순위랑 상태, 요청 자원등을 보고 CPU가 계속 재분배 해줌!!
+
     ![image3](https://github.com/user-attachments/assets/78cc42f6-6ca3-4dc7-bb89-2a2adb873f2f)
 
 
