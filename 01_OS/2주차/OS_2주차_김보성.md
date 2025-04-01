@@ -25,8 +25,9 @@
 
 ![화면 캡처 2025-03-31 112345](https://github.com/user-attachments/assets/1875f796-a3a6-4474-910c-16e68494b180)
 
+![image](https://github.com/user-attachments/assets/f17a8052-9aa9-4071-9296-5c5485d926b5)
 
-![image.png](attachment:ec303d4b-8ede-4a73-bbdb-fcb1effaf807:image.png)
+
 
 MMU는 CPU가 발생시킨 논리 주소에 베이스 레지스터 값을 더하여 논리 주소를 물리 주소로 변환하는 과정!
 
@@ -94,7 +95,8 @@ MMU는 CPU가 발생시킨 논리 주소에 베이스 레지스터 값을 더하
 
 ### 📌 외부 단편화 (External Fragmentation)
 
-![image.png](attachment:15494a76-8ffb-47ce-86d3-ce239b6c3539:image.png)
+![화면 캡처 2025-03-31 152145](https://github.com/user-attachments/assets/bcefea73-9d2f-431f-9190-e081e3d7b58e)
+
 
 ### ✅ 언제 생기나?
 
@@ -127,7 +129,8 @@ MMU는 CPU가 발생시킨 논리 주소에 베이스 레지스터 값을 더하
 
 ### 📌 내부 단편화 (Internal Fragmentation)
 
-![image.png](attachment:b87904e1-3e11-40c5-a627-d416a8ba27f2:image.png)
+![화면 캡처 2025-03-31 152130](https://github.com/user-attachments/assets/bc87ec86-cbbf-4c14-8bab-3948359e78c6)
+
 
 ### ✅ 언제 생기나?
 
@@ -201,7 +204,8 @@ css
 
 프로세스를 쪼개서 물리 메모리 어디든 끼워 넣을 수 있음
 
-![image.png](attachment:ec04251c-e974-473b-8827-f169587f9ff1:image.png)
+![화면 캡처 2025-03-31 141548](https://github.com/user-attachments/assets/cd31a437-b169-46a1-8baf-ed8ba7dcd0e2)
+
 
 ### 1. **페이징 (Paging)**
 
@@ -399,21 +403,24 @@ css
 - 요구하는 페이지가 없을 경우 점점 쌓이는 것!
 - 아래 그림처럼 요구하는 페이지가 메모리 안에 있다면 교체없이 진행
 
-![image.png](attachment:9027362a-ca1e-490d-9408-3ed7b1212b86:image.png)
+![image 2png](https://github.com/user-attachments/assets/a8f73039-0709-437e-95b7-c02fc48b1ce4)
+
 
 **LRU (최근 최소 사용페이지 교체)**
 
 - 최근 최소 사용 페이지 교체 알고리즘
 - 지금 물리 메모리에 올라온 것들 중에서 가장 마지막에 사용되었던 것 빼기
 
-![image.png](attachment:66e2dbd8-7051-4558-bd31-edfa50e16dbc:image.png)
+![화면 캡처 2025-03-31 173427](https://github.com/user-attachments/assets/41c1cb7b-6cdd-4ba8-a87f-bc244230bcaa)
+
 
 **Optimal (최적의 사용페이지 교체)**
 
 - 앞으로 가장 오랫동안 안 쓸 페이지 제거 (이론적으로만 가능)
 - 4번 보면 원래 FIFO였다면 A를 빼고 D를 넣었을 텐데 앞으로 가장 오랫동안 안쓸 C를 제거하고 B를 메모리에 추가!
 
-![image.png](attachment:5c1b86f6-0aae-486e-bf2c-3da454850568:image.png)
+![화면 캡처 2025-03-31 172722](https://github.com/user-attachments/assets/023c2212-483c-429e-84b6-411702b1c5d4)
+
 
 ## 비교
 
@@ -484,7 +491,8 @@ css
 
 - **CPU와 메모리 사이에 존재하는 고속 메모리**로, 자주 사용되는 데이터를 저장하여 CPU가 빠르게 데이터를 처리할 수 있도록 합니다.
 
-![image.png](attachment:3c44b959-6d82-43e7-82b1-c1dae8d0e5d5:image.png)
+![image3](https://github.com/user-attachments/assets/c3401bd7-02d3-40ef-b86c-fa79b65d2530)
+
 
 ### **예시**
 
