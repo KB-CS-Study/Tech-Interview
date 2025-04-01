@@ -23,7 +23,8 @@
 
 - 주소 바인딩 : CPU가 기계어 명령을 수행하기 위해 프로세스의 논리적 주소가 실제 물리적 메모리의 어느 위치에 매핑되는지 확인 하는 과정
 
-![화면 캡처 2025-03-31 112345.png](attachment:8c41b770-0c4d-45d2-8af2-53c789b6aba1:화면_캡처_2025-03-31_112345.png)
+![화면 캡처 2025-03-31 112345](https://github.com/user-attachments/assets/1875f796-a3a6-4474-910c-16e68494b180)
+
 
 ![image.png](attachment:ec303d4b-8ede-4a73-bbdb-fcb1effaf807:image.png)
 
