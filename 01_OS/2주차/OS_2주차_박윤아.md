@@ -1,3 +1,5 @@
+[[tistory] 메모리 & 메모리 관리](https://0woy.tistory.com/entry/%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B4%80%EB%A6%AC)
+
 ## 메모리 계층
 
 메모리 계층은 레지스터, 캐시 메모리, RAM, 저장장치로 구성
