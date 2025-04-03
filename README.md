@@ -1,4 +1,4 @@
-[CS_OS_1주차.pptx](https://github.com/user-attachments/files/19578219/CS_OS_1.pptx)# Tech-Interview
+# Tech-Interview
 ## 📌 스터디원 구성 (8명)
 
 | 프로필 | 이름 | 프로필 | 이름 |
@@ -8,9 +8,9 @@
 | <img src="https://avatars.githubusercontent.com/0woy?v=4" width="100"> | [박윤아](https://github.com/0woy) | <img src="https://avatars.githubusercontent.com/westjin?v=4" width="100"> | [양서진](https://github.com/westjin) |
 | <img src="https://avatars.githubusercontent.com/ockko?v=4" width="100"> | [옥가연](https://github.com/ockko) | <img src="https://avatars.githubusercontent.com/beenvyn?v=4" width="100"> | [최예빈](https://github.com/beenvyn) |
 ## **📌  스터디 운영 일정**
-**🚀 2025년 3월 19일(수) ~ 8월 13일(수)까지 CS 스터디 일정 & 진도 계획**
+**🚀 2025년 3월 26일(수) ~ 8월 13일(수)까지 CS 스터디 일정 & 진도 계획**
 
-📅 스터디 시작일:2025년 3월 19일 (수)
+📅 스터디 시작일:2025년 3월 26일 (수)
 
 📅 스터디 종료일:2025년 8월 13일 (수)
 
@@ -49,11 +49,11 @@
 
 • 스터디 종료 후 복습 + 개인 블로그 정리
 
-## 스터디 기록
+## 📌 스터디 기록
 ### 1주차 : 운영체제 개요 + 프로세스 & 스레드_250326
 👤 발표자 : `강민재`, `옥가연`
 
-📂 발표 자료 : 
+📂 발표 자료 
 - [CS_OS_1주차_강민재](https://github.com/KB-CS-Study/Tech-Interview/blob/main/01_OS/1%EC%A3%BC%EC%B0%A8/OS_1%EC%A3%BC%EC%B0%A8_%EA%B0%95%EB%AF%BC%EC%9E%AC.md)
 
 - [CS_OS_1주차_옥가연.pptx](https://github.com/user-attachments/files/19578220/CS_OS_1.pptx)
