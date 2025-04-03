@@ -1,10 +1,10 @@
-# Tech-Interview
+[CS_OS_1주차.pptx](https://github.com/user-attachments/files/19578219/CS_OS_1.pptx)# Tech-Interview
 ## 📌 스터디원 구성 (8명)
 
 | 프로필 | 이름 | 프로필 | 이름 |
 |--------|------|--------|------|
 | <img src="https://avatars.githubusercontent.com/icegosimperson?v=4" width="100"> | [이혜원](https://github.com/icegosimperson) | <img src="https://avatars.githubusercontent.com/minijae011030?v=4" width="100"> | [강민재](https://github.com/minijae011030) |
-| <img src="https://avatars.githubusercontent.com/chaelink?v=4" width="100">  | [권채린](https://github.com/chaelink) | <img src="https://avatars.githubusercontent.com/NangManBo?v=4" width="100"> | [김보성](https://github.com/NangManBo) |
+| <img src="https://avatars.githubusercontent.com/chaelink?v=4" width="100">  | [권채린](https://github.com/chaelink) | <img src="https://avatars.githubusercontent.com/GreenTea0413?v=4" width="100"> | [김보성](https://github.com/GreenTea0413) |
 | <img src="https://avatars.githubusercontent.com/0woy?v=4" width="100"> | [박윤아](https://github.com/0woy) | <img src="https://avatars.githubusercontent.com/westjin?v=4" width="100"> | [양서진](https://github.com/westjin) |
 | <img src="https://avatars.githubusercontent.com/ockko?v=4" width="100"> | [옥가연](https://github.com/ockko) | <img src="https://avatars.githubusercontent.com/beenvyn?v=4" width="100"> | [최예빈](https://github.com/beenvyn) |
 ## **📌  스터디 운영 일정**
@@ -48,3 +48,20 @@
 • 깃허브 PR 리뷰 & 피드백 반영
 
 • 스터디 종료 후 복습 + 개인 블로그 정리
+
+## 스터디 기록
+### 1주차 : 운영체제 개요 + 프로세스 & 스레드_250326
+👤 발표자 : `강민재`, `옥가연`
+
+📂 발표 자료 : 
+- [CS_OS_1주차_강민재](https://github.com/KB-CS-Study/Tech-Interview/blob/main/01_OS/1%EC%A3%BC%EC%B0%A8/OS_1%EC%A3%BC%EC%B0%A8_%EA%B0%95%EB%AF%BC%EC%9E%AC.md)
+
+- [CS_OS_1주차_옥가연.pptx](https://github.com/user-attachments/files/19578220/CS_OS_1.pptx)
+
+
+### 2주차 : 메모리 관리 (페이징 & 세그멘테이션) + 가상 메모리_250402
+👤 발표자 : `권채린`, `박윤아`
+
+📂 발표 자료 
+- [메모리 발표 권채린.pdf](https://github.com/user-attachments/files/19578215/default.pdf)
+- [2주차 메모리 발표 박윤아.pptx](https://github.com/user-attachments/files/19578216/2.pptx)
