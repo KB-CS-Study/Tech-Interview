@@ -17,7 +17,8 @@
 
 ## 💡 구성 요소 상세 설명
 
-![image.png](attachment:61150aeb-0eb3-41ad-901b-b401c88c2401:image.png)
+![1](https://github.com/user-attachments/assets/f48a571c-6575-46cc-b834-780976810405)
+
 
 ### 1. **Pull of Job in Disk**
 
@@ -122,7 +123,8 @@
 - 프로세스 도착순으로 CPU를 배정
 - 끝날 때까지 CPU 점유, 간단하지만 비효율
 
-![image.png](attachment:431999c5-3ad2-448d-8c3f-865fc16d2df8:image.png)
+![2](https://github.com/user-attachments/assets/71c7b4f1-a708-498e-9298-20ebf0414fc9)
+
 
 ### SJF
 
@@ -133,7 +135,8 @@
     - Burst Time : CPU가 일을 수행하는 시간
 - 또한 긴 시간을 필요로 하는 프로셋가 우선순위가 계속 밀려 실행되지 못하고 무기한으로 대기하게 되는 기아 현상이 일어날 수 있다!
 
-![image.png](attachment:b192832b-2738-494a-8ca6-b1dd4491d8c8:image.png)
+![3](https://github.com/user-attachments/assets/14e89f83-3655-4fb5-8ce4-184bea1e8a76)
+
 
 ### Priority
 
@@ -143,7 +146,8 @@
     - 이 방법을 노화! (Aging) 이라고 함
         - ex) 우선순위가 원래 5였지만 시간일 갈수록 5 → 4 → 3  → .. 줄어드는 방식
 
-![image.png](attachment:ad18c3a5-4221-4261-a77b-07adce1ed91d:image.png)
+![4](https://github.com/user-attachments/assets/96938c4f-d758-47b1-877e-5305b082dfb9)
+
 
 ---
 
@@ -177,7 +181,8 @@
     - 대신 20보다 작다면 그냥 실행하고 비켜주면 됨! 그렇게 순서대로 돌아가면서 실행
 - 할당 시간 내에 처리를 완료하지 못하면 강제 중단 후 다음 작업으로 넘어가므로 선점형 방식
 
-![image.png](attachment:f21e2f4b-14fc-4bf0-a647-a6baf747d2bb:image.png)
+![5](https://github.com/user-attachments/assets/65dc3f6c-f0fb-4070-83ec-21a9c335397d)
+
 
 ### SRTF
 
@@ -185,7 +190,9 @@
 - 사진처럼 도착 시간에 왔을 때 남은 시간이 더 적은 프로세스가 실행 되도록 함
 - 평균 대기 시간을 줄일 수 있지만 역시 다음 프로세스의 CPU burst time을 예측하는 것이 어렵다는 문제가 존재
 
-![image.png](attachment:05e9e031-c208-4b4a-aed9-ecd3b246fc88:image.png)
+![8](https://github.com/user-attachments/assets/c61644d7-c379-4d79-9d32-53d21a273ad6)
+
+
 
 ### MLQ
 
@@ -244,7 +251,8 @@
 
 ## 💡 프로세스 상태 전이
 
-![](https://velog.velcdn.com/images%2Fmooh2jj%2Fpost%2F7457fade-4d88-4768-a10e-88cb32904c61%2Fimage.png)
+![6](https://github.com/user-attachments/assets/c744438d-0e0d-451a-bcb4-a3a5bf8878fb)
+
 
 - **생성(New)**
     - 제일 첫번째로 New에서 Ready로 전이되는 과정
@@ -479,7 +487,8 @@ ISR 수행 중 **우선순위가 더 높은 인터럽트**가 들어오면?
 | 실행 주체 | 사용자 프로그램 | 운영체제 (커널) |
 | 예 | 게임, 크롬, VSCode 등 | 메모리 관리, 파일 시스템, 스케줄링 등 |
 
-![image.png](attachment:3a6f4ce5-fed4-40e3-84a5-0ecf467bd065:image.png)
+![7](https://github.com/user-attachments/assets/ef32f107-f1fe-4239-8ab7-7b7fc9f2df9d)
+
 
 할 수 있는 영역이 나눠져 있음!
 
