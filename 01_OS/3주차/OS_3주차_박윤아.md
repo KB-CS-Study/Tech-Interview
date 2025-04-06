@@ -416,7 +416,7 @@ CPU 부팅 시에는 실모드로 시작되지만, OS가 로딩되면 바로 보
 
 보호 모드에서는 IDT (Interrupt Descriptor Table)라는 구조 사용
 
-![1](https://github.com/user-attachments/assets/b325e123-cc53-4456-88af-63ce67c18eb5)
+<Img src="https://github.com/user-attachments/assets/b325e123-cc53-4456-88af-63ce67c18eb5" width="50%" />
 
 
 -   인터럽트 번호와 ISR 주소 매핑은 동일
@@ -463,7 +463,8 @@ CPU 부팅 시에는 실모드로 시작되지만, OS가 로딩되면 바로 보
 
 운영체제가 커널에 접근하기 위한 **인터페이스**이며 **유저 프로그램이** 운영체제의 서비스를 받기 위해 **커널 함수를 호출**할 때 사용
 
-[##_Image|kage@kMhAh/btsM97Sw9J4/8hrqU9k1A24rkFjsuFquCk/tfile.dat|CDM|1.3|{"originWidth":537,"originHeight":309,"style":"alignCenter","caption":"시스템콜, 커널 &amp; 운영체제","filename":"dd.png"}_##]
+![1](https://github.com/user-attachments/assets/f446b7e9-bbc4-4e24-99e3-17f65bb0fab0)
+
 
 프로세스나 스레드에서 **운영체제로 요청을 할 때**, \`시스템콜\`과 \`커널\`을 거쳐 운영체제로 전달됨
 
