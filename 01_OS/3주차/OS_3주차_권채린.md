@@ -1,7 +1,6 @@
 # 3️⃣ CPU 스케줄링 + 인터럽트&시스템 콜
 
 
-
 **목차**
 #### 1. CPU 스케줄링 알고리즘
 - [💔 선점형 스케줄링(Preemptive scheduling) vs 비선점형 스케줄링(Non-Preemptive scheduling)](#-선점형-스케줄링preemptive-scheduling-vs-비선점형-스케줄링non-preemptive-scheduling)
