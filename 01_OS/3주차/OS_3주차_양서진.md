@@ -108,6 +108,7 @@
 
 - 긴 작업이 먼저 실행되면, 뒤에 짧은 작업들도 오래 기다리는 현상
 
+<img width="441" alt="image1" src="https://github.com/user-attachments/assets/050206d4-22e2-4d72-a7f1-3ca44bc6405f" />
 
 
 예: 트럭이 앞에서 느리게 가면 뒤 차량들도 전부 느려짐
@@ -127,7 +128,8 @@ CPU 스케줄링에서도 **작은 작업들이 큰 작업 때문에 밀려서 �
 
 ---
 
-![image.png](attachment:e9d993fa-a85d-4d0b-8c82-ecc2316ea72b:image.png)
+<img width="863" alt="image2" src="https://github.com/user-attachments/assets/a8c5cfb7-eb2f-467e-a5fc-a17f47077c94" />
+
 
 ### Recall
 
@@ -209,7 +211,8 @@ turnaround → 줄을 서기 시작한 다음부터 계산 완료되어 나갈�
 
 → **SJF는 일종의 우선순위 스케줄링이다**
 
-![image.png](attachment:969fca62-d553-4808-a4e3-77c076ae89b1:image.png)
+<img width="595" alt="image3" src="https://github.com/user-attachments/assets/4835f000-55c7-426c-ae55-73430081b6ed" />
+
 
 ## 그러나 각 프로세스의 처리시간을 알기 힘들다.
 
@@ -225,7 +228,8 @@ turnaround → 줄을 서기 시작한 다음부터 계산 완료되어 나갈�
 
 → 현재 실행 중인 작업보다 **짧은 실행 시간의 새 작업이 도착하면**, **현재 작업을 중단(preempt)하고 새 작업을 실행하라**
 
-![image.png](attachment:96a2c6cc-be3c-4933-aebd-34d9761866b8:image.png)
+<img width="749" alt="image4" src="https://github.com/user-attachments/assets/6bf1d43e-3086-484d-be28-4e70c077216a" />
+
 
 - 프로세스의 입장 타이밍 유의
 
@@ -292,7 +296,8 @@ turnaround → 줄을 서기 시작한 다음부터 계산 완료되어 나갈�
 
 라운드 로빈은 특히 응답 속도(response time)가 중요한 시스템에서 효과적임
 
-![image.png](attachment:031bb53c-d087-4efe-98ea-fee0f6376ed8:image.png)
+<img width="532" alt="image5" src="https://github.com/user-attachments/assets/bcc72909-048d-4fbb-a389-3dea5ae1bacb" />
+
 
 ---
 
@@ -304,7 +309,8 @@ CPU는 **가장 높은 우선순위**를 가진 작업에게 할당된다.
 
 Can be preemptive or non-preemptive
 
-![image.png](attachment:1b420804-e303-4f10-ac06-91b3524d9e5e:image.png)
+<img width="485" alt="image6" src="https://github.com/user-attachments/assets/0fd32198-da65-4f82-a4ac-913b32b407fc" />
+
 
 Burst time → 실제 사용 시간
 
@@ -353,7 +359,8 @@ Each queue has its own scheduling algorithm
 
 즉, **작업의 목적과 성격에 따라 큐를 분류** 
 
-![image.png](attachment:cb625a0f-06d8-4baa-a487-b10afff54a42:image.png)
+<img width="580" alt="image7" src="https://github.com/user-attachments/assets/1ddfc496-bec7-403a-9b2f-2645fa240f06" />
+
 
 > 여러 개의 큐가 존재할 때,
 > 
@@ -423,7 +430,8 @@ Each queue has its own scheduling algorithm
 | **When to promote/demote** | **언제** 우선순위를 올릴지/내릴지 결정하는 기준 |
 | **Which queue to enter** | 프로세스가 처음 생성될 때 어떤 큐에 들어갈지 결정하는 기준 |
 
-![image.png](attachment:af793173-388e-46c9-aac3-013114022ace:image.png)
+<img width="584" alt="image8" src="https://github.com/user-attachments/assets/aa9aed11-3bf2-4503-9289-1438b5dc99be" />
+
 
 **3단계의 큐를 사용한 MLFQ 구조**
 
@@ -457,7 +465,8 @@ Each queue has its own scheduling algorithm
 
 → CPU는 **인터럽트를 감지한 후**, **알맞은 처리 루틴**을 실행함
 
-![image.png](attachment:76ee9fd9-f1c1-42a1-8efd-5f56999dafaa:image.png)
+<img width="425" alt="image9" src="https://github.com/user-attachments/assets/1d763c72-27bc-442f-801a-acf2f9ff6246" />
+
 
 1. CPU에서 명령어를 순차적으로 실행하는 중
 
@@ -580,7 +589,8 @@ Privileged instruction은 커널 모드에서만 실행이 가능함
 
 ✅ 처리 끝나면 → **다시 User Mode로 복귀**해서 프로그램 계속 실행
 
-![image.png](attachment:11f41873-84bc-4a4a-a875-eba312343602:image.png)
+<img width="564" alt="image10" src="https://github.com/user-attachments/assets/27967aea-f6d6-477a-8b36-baef75b77649" />
+
 
 | 모드 | 설명 |
 | --- | --- |
