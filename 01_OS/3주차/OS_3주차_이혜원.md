@@ -33,8 +33,8 @@
 
 > 어떤 프로세스에게 CPU를 할당할 것인지 결정하는 것
 
-![1](https://github.com/user-attachments/assets/b790cf41-c58f-4b9e-b282-d02b46a731bc)
 
+![img.png](..%2F..%2F..%2F..%2FDocuments%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F1.png)
 - CPU 스케줄링이 작동하는 순간
     - **ready → running**: CPU 스케줄러가 선택
     - **running → ready**: 선점형 스케줄링이 발생 (인터럽트)
@@ -54,8 +54,7 @@
 
 > **CPU → I/O → CPU → I/O**를 반복하면서 실행 (**CPU–I/O Burst Cycle)**
 >
-![2](https://github.com/user-attachments/assets/32b6dd1e-a4ce-495b-acbb-88ba84ffb21d)
-
+![2.png](..%2F..%2F..%2F..%2FDocuments%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F2.png)
 - CPU Brust : CPU가 작업을 처리하는 시간
 - I/O Brust : I/O 작업을 기다리는 시간
 
@@ -69,8 +68,7 @@
 > **Histogram of CPU-burst Times**
 >
 
-![3](https://github.com/user-attachments/assets/66cba6ed-ca73-45b0-b679-7f4386629d17)
-
+![3.png](..%2F..%2F..%2F..%2FDocuments%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F3.png)
 
 ### 4. 비선점 스케줄링
 
@@ -82,16 +80,14 @@
     - 큐에 도착한 순서대로 CPU 할당
     - 실행 시간이 긴 작업이 앞으로 오면 평균 대기 시간이 길어짐
 
-![4](https://github.com/user-attachments/assets/9bb839e5-0446-4a12-8ec0-4e8f7ca99c2f)
-
+![4.png](..%2F..%2F..%2F..%2FDocuments%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F4.png)
 
 - SJF(Shortest Job First)
     - 최단 작업 우선 원칙
     - FCFS 보다 평균 대기 시간 감소, 짧은 작업에 유리
     - 실행 시간이 짧은 작업이 늦게 도착할 경우 FCFS와 동일한 convoy 문제 발생
 
-![5](https://github.com/user-attachments/assets/bce9a4c1-e790-49dc-9caf-04b6a2319c8e)
-
+![5.png](..%2F..%2F..%2F..%2FDocuments%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F5.png)
 
 - HRN(Hightest Response-ratio Next)
     - 우선순위를 계산하여 점유 불평등을 보완하는 방법(SJF의 단점 보완)
@@ -104,19 +100,19 @@
 > CPU 사용 중에도 Interrupt로 작업을 중단하고 다르 프로세스로 전환하는 방식
 >
 
+<aside>
+💡
 
-💡 예전 일괄처리 시절에 많은 비선점(non-preemptive) 스케줄러가 개발된다. 이 시스템은 각 작업이 종료될 때까지 계속 실행한다. 이론적으로 모든 현대 스케줄러는 선점형이고, 다른 프로세스를 실행시키기 위하여 필요하면 현재 프로세스의 실행을 중단한다. 이 사실은 스케줄러가 앞에서 배웠던 기법을 채용하고 있다는 것을 의미한다. 구체적으로 스케줄러는 문맥 교환을 수행할 수 있고, 실행 중인 프로세스를 잠시 중단시킬 수 있으며 다른 프로세스를 재개 또는 시작시킬 수 있다.
+예전 일괄처리 시절에 많은 비선점(non-preemptive) 스케줄러가 개발된다. 이 시스템은 각 작업이 종료될 때까지 계속 실행한다. 이론적으로 모든 현대 스케줄러는 선점형이고, 다른 프로세스를 실행시키기 위하여 필요하면 현재 프로세스의 실행을 중단한다. 이 사실은 스케줄러가 앞에서 배웠던 기법을 채용하고 있다는 것을 의미한다. 구체적으로 스케줄러는 문맥 교환을 수행할 수 있고, 실행 중인 프로세스를 잠시 중단시킬 수 있으며 다른 프로세스를 재개 또는 시작시킬 수 있다.
 
-
-
+</aside>
 
 1. STCF( Shortest Time-to-Completion First, =PSJF)
     - 최단 잔여시간 우선
     - 스케줄러에 남아있는 작업과 새로운 작업의 잔여 실행 시간을 계산하여, 가장 적은 잔여 실행 시간을 가진 작업을 스케줄
     - 단점: CPU Burst 예측 필요
 
-![6](https://github.com/user-attachments/assets/419b3081-bff6-4683-8425-14ad62e5147a)
-
+![6.png](..%2F..%2F..%2F..%2FDocuments%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F6.png)
 
 2. Priority Scheduling
 
@@ -125,7 +121,7 @@
 - 단점 : starvation(기아 상태), Indefinite blocking(무기한 봉쇄)
 - 해결 방법: aging
     - 우선순위가 낮은 프로세스가 오래 기다리면 우선순위를 높여줌
-3. Round Robin
+1. Round Robin
     - 작업이 끝날 때까지 기다리지 않음
     - `일정한 시간` (=time slice, =scheduling quantum) 동안 작업을 실행한 후, 실행 큐의 다음 작업으로 전환
         - 일정한 시간은 인터럽트 주기의 배수여야 한다
@@ -134,18 +130,16 @@
     - 시분할 컴퓨터 등장으로 생긴 새로운 평가 기준인 `응답 시간` 이 좋아짐
         - 반환시간은 좋지않음
 
-![7](https://github.com/user-attachments/assets/4076c4ce-f71d-4801-90af-14653053cf19)
+![7.png](..%2F..%2F..%2F..%2FDocuments%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F7.png)
 
-
-4. MLQ(Multi Level Queue, 다단계 큐)
+2. MLQ(Multi Level Queue, 다단계 큐)
     - 작업 성격 별로 큐 분리 (ex. 시스템 프로세스 / 사용자 프로세스)
     - 큐 간 우선순위 존재
     - 큐 내에서는 FCFS or RR
 
-![8](https://github.com/user-attachments/assets/7bf03da5-52a7-4755-a64f-4607f2333f7a)
+![8.png](..%2F..%2F..%2F..%2FDocuments%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F8.png)
 
-
-5. MLFQ(Multi Level Feedback Queue, 다단계 피드백 큐)
+1. MLFQ(Multi Level Feedback Queue, 다단계 피드백 큐)
     - 여러 개의 큐로 구성되며, 각각 다른 우선순위가 배정
     - 짧은 작업을 먼저 실행시켜 반환 시간을 최적화하고자 한다
     - 기본 규칙
@@ -161,8 +155,7 @@
         - `starvation` (기아 상태)가 발생할 수 있음
             - 시스템에 너무 많은 대화형 작업이 존재하면 그들이 모든 CPU 시간을 소모하게 될 것이고 따라서 긴 실행 시간 작업은 CPU 시간을 할당받지 못함
 
-![9](https://github.com/user-attachments/assets/d1d9077b-8f74-445d-80b0-20f926c85e02)
-
+![9.png](..%2F..%2F..%2F..%2FDocuments%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F9.png)
 
 | **알고리즘** | **방식** | **특징** | **단점** |
 | --- | --- | --- | --- |
@@ -200,8 +193,7 @@ A. STarvation이란 우선순위가 낮은 프로세스가 CPU를 할당 받지 
 > **CPU가 작업 중일 때 외부나 내부에서 이벤트가 발생하면, CPU가 현재 작업을 일시 중단하고, 시급한 작업을 우선 처리하는 메커니즘**
 >
 
-![10](https://github.com/user-attachments/assets/fc9dbb5a-0b02-45b5-852c-05fde910a320)
-
+![10.png](..%2F..%2F..%2F..%2FDocuments%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F10.png)
 
 - 일종의 가로채기(Interruption)
 - CPU가 외부/내부 신호에 의해 현재 실행 중인 프로세스의 흐름을 중단하고 Interrupt 서비스 루틴으로 분기
@@ -215,20 +207,22 @@ A. STarvation이란 우선순위가 낮은 프로세스가 CPU를 할당 받지 
 1. External Interrupt (외부 인터럽트)
 
 > **CPU 외부 하드웨어에서 발생하는 인터럽트로, `비동기적`(예측 불가능)으로 CPU의 주 작업을 중단시킴**
-
+>
 - 전원 이상, 기계 착오, 외부 신호, 입출력 장치 요청(I/O Interrupt)
 
-2. Internal Interrupt (내부 인터럽트, =Exception)
+2Internal Interrupt (내부 인터럽트, =Exception)
 
 > **CPU 내부에서 발생하는 인터럽트, `동기적`**
-
+>
 - 잘못된 명령이나 데이터를 사용할 때 발생
 - 0으로 나누기, overflow, 잘못된 명령어 실행(Exception)
-- `Trap(의도적인 시스템 콜)`  : 의도적으로 커널 기능을 요청하는 소프트웨어 인터럽트(ex. System call)
-
-3. 소프트웨어 인터럽트
+- 
+3소프트웨어 인터럽트
 
 > 프로그램 처리 중 명령의 요청에 의해 발생한 것 (SVC 인터럽트)
+- 사용자가 프로그램을 실행시킬 때 발생
+- 소프트웨어 이용 중에 다른 프로세스를 실행시키면 시분할 처리를 위해 자원 할당 동작이 수행
+- `Trap(의도적인 시스템 콜)`  : 의도적으로 커널 기능을 요청하는 소프트웨어 인터럽트(ex. System call)
 
 
 사용자가 프로그램을 실행시킬 때 발생
@@ -245,9 +239,8 @@ A. STarvation이란 우선순위가 낮은 프로세스가 CPU를 할당 받지 
 
 > **Trap 은 내부 인터럽트의 한 종류로, 커널 서비스를 요청하거나 디버깅을 위해 의도적으로 발생**
 >
-- 내부 인터럽트의 범위
-    - 의도하지 않은 오류 → 예외 (Exception)
-    - 의도적으로 발생하는 인터럽트 → **Trap**
+- 내부 인터럽트의 : 의도하지 않은 오류 → 예외 (Exception)
+- Trap(소프트웨어 인터럽트) → 의도적으로 발생하는 인터럽트 
 
 ### 인터럽트 번호 (x86 시스템 기준)
 
@@ -315,16 +308,16 @@ A. STarvation이란 우선순위가 낮은 프로세스가 CPU를 할당 받지 
     - 장점: 빠름, 실시간성
     - 단점: 회로 복잡, 유연성 낮음
 
-💬 **내부 인터럽트는 Trap이라고 할 수 있나요?**
+💬 내부 인터럽트는 Trap이라고 할 수 있나요?
 
-A. Trap 은 내부 인터럽트의 일종으로, 프로그램이 커널 기능을 요청하거나 디버깅을 위해 의도적으로 발생시키는 인터럽트입니다. 내부 인터럽트는 Trap 과 예기치 않은 오류 상황 모두를 포함합니다
+A. Trap 은 소프트웨어 인터럽트의 일종으로, 프로그램이 커널 기능을 요청하거나 디버깅을 위해 의도적으로 발생시키는 인터럽트입니다.
 
 <aside>
 💡
 
 인터럽트는 CPU 가 외부 또는 내부 이벤트에 빠르게 대응하기 위한 메커니즘으로, 발생 시 현재 상태를 저장하고 인터럽트 서비스 루틴을 수행한 뒤 원래 작업으로 복귀한다.
 
-인터럽트는 외부 인터럽트, 내부 인터럽트(Exception), 소프트웨어 인터럽트로 구분하며, 내부 인터럽트 중 의도적으로 발생하는 Trap 은 커널 기능 요청 등에 사용된다
+인터럽트는 외부 인터럽트, 내부 인터럽트(Exception), 소프트웨어 인터럽트로 구분한다.
 
 </aside>
 
@@ -340,8 +333,7 @@ A. Trap 은 내부 인터럽트의 일종으로, 프로그램이 커널 기능�
 
 > 운영체제(OS)의 서비스를 사용하기 위해 사용자 프로그램이 커널에 요청하는 메커니즘
 
-![11](https://github.com/user-attachments/assets/44392a51-f883-45b2-a7a4-6ffbe81c1238)
-
+![11.png](..%2F..%2F..%2F..%2FDocuments%2F%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%2F11.png)
 
 - 프로그램은 보안, 안정성 이유로 하드웨어에 직접 접근 불가능
 - OS에게 요청하는 방식
@@ -388,8 +380,8 @@ A. Trap 은 내부 인터럽트의 일종으로, 프로그램이 커널 기능�
 
 ### 사용자 모드 vs 커널 모드
 
-> 보안과 안정적인 프로그램 실행환경 유지하기 위해 구분해야 한다
-
+> 보안과 안정적인 프로그램 실행환경 유지하기 을 위해 구분해야 한다
+>
 
 | **구분** | **사용자 모드 (User Mode)** | **커널 모드 (Kernel Mode)** |
 | --- | --- | --- |
@@ -402,7 +394,7 @@ A. Trap 은 내부 인터럽트의 일종으로, 프로그램이 커널 기능�
 - 이를 방지하기 위해 프로그램은 User Mode에서만 실행
 - OS가 필요한 작업을 Kernel Mode에서 실행
 
-💬  **System call 이랑 Interrupt차이**
+💬  System call 이랑 Interrupt차이
 
 A. 둘 다 CPU 모드를 사용자 모드 → 커널 모드로 바꾸지만,
 
@@ -418,13 +410,14 @@ System call은 의도된 요청, Interrupt는 예기치 않은 외부/내부 사
 | **누가 발생?** | 프로그램이 **명령어로 발생** (syscall) | 하드웨어나 CPU 내부 장치가 발생 (타이머, I/O 장치 등) |
 | **어떻게 동작?** | 프로그램 → 커널 모드 전환 → OS 서비스 수행 | 인터럽트 핸들러(ISR)가 CPU 제어권 획득 → 작업 수행 |
 
-💬 **운영체제에서 Dual Mode에 대해 설명해 주세요**
+💬 운영체제에서 Dual Mode에 대해 설명해 주세요
 
-A. 운영체제는 User Mode와 Kernel Mode 두 가지 모드가 존재합니다. 
+> A. 운영체제는 User Mode와 Kernel Mode 두 가지 모드가 존재한다
+>
 
-User Mode는 제한된 권한을 가지며 프로그램 실행 시 사용되며, 
+User Mode는 제한된 권한을 가지며 프로그램 실행 시 사용됩니다
 
-Kernel Mode는 모든 자원에서 접근 가능하며, 시스템 자원 관리와 하드웨어 제어를 담당 합니다
+Kernel Mode는 모든 자원에서 접근 가능하며, 시스템 자원 관리와 하드웨어 제어를 담당
 
 참고 자료
 
