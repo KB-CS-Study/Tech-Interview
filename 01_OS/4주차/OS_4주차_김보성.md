@@ -5,7 +5,8 @@
 - 둘 이상의 입력 또는 조작의 타이밍이나 순서 등이 결과값에 영향을 줄 수 있는 상태 (경쟁 상태)
 - Race condition은 공유(공통) 자원을 둘 이상의 스레드 혹은 프로세스가 읽거나 쓰면서 결과값이 의도와 달라질 수 있는 문제!
 
-![image.png](attachment:a69e5964-3886-4b05-a6dc-86077a3115da:image.png)
+![1](https://github.com/user-attachments/assets/52d18e5c-1024-4c7c-81a3-04cea96f1032)
+
 
 스레드 여러 개가 전역 변수 counter를 ++ 연산하는 상황을 시뮬레이션
 
@@ -61,7 +62,8 @@ store register -> counter                 3. 결과를 다시 counter 변수에 
 
 ## 문제점
 
-![image.png](attachment:6a3f4449-5433-4952-aec3-ee62a0f098a2:image.png)
+![2](https://github.com/user-attachments/assets/db0565c6-f55f-451a-a789-4357d4d0d07e)
+
 
 이렇게 지금 멀티 스레드는 힙, 공유데이터, 코드를 공유함!
 
@@ -141,7 +143,8 @@ store register -> counter                 3. 결과를 다시 counter 변수에 
 
 - 락을 가졌다 = 스레드가 임계구역 또는 공유 자원을 독점 사용하는 권한(열쇠)을 획득했다는 의미
 
-![image.png](attachment:17f4e476-f39c-4e44-9989-3ed470fb35fb:image.png)
+![3](https://github.com/user-attachments/assets/5afa905e-b9c8-457c-b797-dca4a6543209)
+
 
 자동차(프로세스)들이 현재 위치한 길(자원)을 점유함과 동시에 다른 차가 사용하는 길(자원)을 사용하려고 대기하고 있지만, 다른 길(자원)을 사용할 수 없으며 현재 길(자원)에서도 벗어나지 못하는 원형 대기상태
 
@@ -235,7 +238,8 @@ store register -> counter                 3. 결과를 다시 counter 변수에 
 그 중에는 **타임아웃**, 자원 할당 그래프 등을 사용할 수 있음
 
 - 흔히 볼 수 있는 타임아웃
-  ![](https://velog.velcdn.com/images%2Fmooh2jj%2Fpost%2F76cf19e7-8976-4827-858e-7e3e020867c7%2Fimage.png)
+  ![4](https://github.com/user-attachments/assets/5f6a51c2-62ab-469f-862c-1c7985428784)
+
 
 ### 4. 회복
 
@@ -285,7 +289,8 @@ store register -> counter                 3. 결과를 다시 counter 변수에 
 - 여러 스레드나 프로세스가 자원에 접근할 수 있는 최대 개수를 제어
 - 값을 증가하거나 감소시키는 연산(P, V)을 통해 동기화 제어하는 도구
 
-![image.png](attachment:f5d54248-cde1-4bfe-ba42-e571f2d3b07e:image.png)
+![5](https://github.com/user-attachments/assets/d9f618ee-07db-4f70-ae37-31067052b6ab)
+
 
 wait → 들어갈 수 있으면 자원 점유
 
@@ -359,7 +364,8 @@ V(S):   // signal
 - Mutual Exclusion(상호 배제)의 줄임말
 - 자원에 잠금(Lock)을 걸어서 하나만 들어오게 하고 끝나면 해제(Unlock) 하는 방식
 
-![image.png](attachment:c59e3f2e-8f5b-4b23-9fb2-9e8bf65f6609:image.png)
+![6](https://github.com/user-attachments/assets/6960f8fc-2932-46fb-a1df-5a5416b77d93)
+
 
 ## 작동 원리
 
