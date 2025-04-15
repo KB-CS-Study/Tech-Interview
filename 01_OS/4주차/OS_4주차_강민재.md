@@ -166,6 +166,7 @@ critical section에 관련된 전통적인 문제로 생산자-소비자 문제�
 ---
 
 <br>
+
 > **Binary Semaphore vs Mutex**
 >
 > - Binary Semaphore는 리소스의 접근 제어를 위해 사용할 수 있지만, 누구나 signal을 호출할 수 있음
