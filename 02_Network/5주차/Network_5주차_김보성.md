@@ -114,7 +114,8 @@
 
 ### 🧩 7계층 구성 및 핵심 역할
 
-![image.png](attachment:0519837d-8419-482f-b659-332952607ab6:image.png)
+![1](https://github.com/user-attachments/assets/f6e92a40-59c6-4ef3-b765-1c3f2970ace4)
+
 
 | 계층 | 이름 | 주요 기능 | 예시 |
 | --- | --- | --- | --- |
@@ -368,7 +369,8 @@
 
 ### 3-Way Handshake
 
-![image.png](attachment:5b5e4076-8cb0-408a-9c40-faa6f25b3d70:image.png)
+![2](https://github.com/user-attachments/assets/1bb90fd7-e9e9-4b04-bf04-67bfd111ca66)
+
 
 - **TCP 연결을 수립할 때 사용하는 3단계 절차**
 - 클라이언트와 서버가 **서로의 존재를 확인하고**, **데이터를 주고받을 준비가 되었는지** 확인하는 과정
@@ -763,7 +765,8 @@ Client → Server : ACK, seq = x+1 = 101, ack = y+1 = 201
 
 # ✅ OSI 7계층과 TCP/IP 계층 비교
 
-![image.png](attachment:04b35840-2838-4a1d-be3d-fba9fe1eb388:image.png)
+![3](https://github.com/user-attachments/assets/5d0bdad2-bf63-4673-9619-c870b3061ec8)
+
 
 ## ✅ OSI vs TCP/IP 계층 비교 요약
 
