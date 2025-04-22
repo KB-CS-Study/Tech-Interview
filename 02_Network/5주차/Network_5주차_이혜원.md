@@ -1,4 +1,6 @@
-![image.png](attachment:bf454d51-9417-40c1-aa2f-1dfe943cab5e:image.png)
+![image](https://github.com/user-attachments/assets/d073992b-c480-4c08-986e-198beac7a3a5)
+
+
 
 | **계층** | **주요 역할** | **대표 프로토콜** | **관련 장비** |
 | --- | --- | --- | --- |
