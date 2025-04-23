@@ -58,7 +58,7 @@
 
 네트워크 카드나 라우터 등 네트워크 장비에 내장된 하드웨어에 설정
 
-![1](https://github.com/user-attachments/assets/a8c83021-ebaa-45af-ae0e-4fe2c52bd1e1)
+![mac](https://github.com/user-attachments/assets/aca20efe-128e-4261-92fa-668e10c7bb99)
 
 > 물리적 네트워크 장치에 대한 주소이므로 전 세계 어디서나 **고유함**
 
