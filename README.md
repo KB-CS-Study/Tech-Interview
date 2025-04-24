@@ -28,8 +28,8 @@
 | 주차 | 날짜 | 주제(A) |
 | --- | --- | --- |
 | 5주차 | 4/23 (수) | OSI 7 계층 & TCP/IP 모델 |
-| 6주차 | 4/30 (수) | TCP & UDP (3-way, 4-way handshake) + 흐름제어 & 혼잡제어 |
-| 7주차 | 5/7  (수) | **연휴 방학 (5/1 ~ 5/6)**|
+| 6주차 | 4/30 (수) | **연휴 방학 (4/30 ~ 5/7)**|
+| 7주차 | 5/7  (수) | TCP & UDP (3-way, 4-way handshake) + 흐름제어 & 혼잡제어 |
 | 8주차 | 5/14 (수) | HTTP & HTTPS + TLS/SSL + 쿠키 & 세션 |
 | 9주차 | 5/21 (수) | 로드 밸런싱, 웹 서버 & WAS 차이 |
 
@@ -110,25 +110,51 @@
 • 스터디 종료 후 복습 + 개인 블로그 정리
 
 ## 📌 스터디 기록
-### 1주차 : 운영체제 개요 + 프로세스 & 스레드_250326
-👤 발표자 : `강민재`, `옥가연`
+<details>
+  <summary>1주차 : 운영체제 개요 + 프로세스 & 스레드_250326 </summary>
+  👤 발표자 : `강민재`, `옥가연`
 
 📂 발표 자료 
 - [CS_OS_1주차_강민재](https://github.com/KB-CS-Study/Tech-Interview/blob/main/01_OS/1%EC%A3%BC%EC%B0%A8/OS_1%EC%A3%BC%EC%B0%A8_%EA%B0%95%EB%AF%BC%EC%9E%AC.md)
 
 - [CS_OS_1주차_옥가연.pptx](https://github.com/user-attachments/files/19578220/CS_OS_1.pptx)
+</details>
 
-
-### 2주차 : 메모리 관리 (페이징 & 세그멘테이션) + 가상 메모리_250402
+<details>
+  <summary>2주차 : 메모리 관리 (페이징 & 세그멘테이션) + 가상 메모리_250402</summary>
 👤 발표자 : `권채린`, `박윤아`
 
 📂 발표 자료 
 - [메모리 발표 권채린.pdf](https://github.com/user-attachments/files/19578215/default.pdf)
 - [2주차 메모리 발표 박윤아.pptx](https://github.com/user-attachments/files/19578216/2.pptx)
+</details>
 
-### 3주차 : CPU 스케줄링  + 인터럽트 & 시스템 콜 _250407
+<details>
+  <summary>3주차 : CPU 스케줄링  + 인터럽트 & 시스템 콜 _250407</summary>
 👤 발표자 : `이혜원`, `양서진`
 
 📂 발표 자료
 - [OS_3주차발표_이혜원.pdf](https://github.com/user-attachments/files/19631971/OS_3._.pdf)
 - [CS_OS_3주차_양서진](https://github.com/KB-CS-Study/Tech-Interview/blob/main/01_OS/3%EC%A3%BC%EC%B0%A8/OS_3%EC%A3%BC%EC%B0%A8_%EC%96%91%EC%84%9C%EC%A7%84.md)
+</details>
+
+<details>
+  <summary>4주차 : 동기화 문제 (Race Condition, Deadlock) + 세마포어 & 뮤텍스 _250414</summary>
+👤 발표자 : `김보성`, `최예빈`
+
+📂 발표 자료
+- [OS_4주차_김보성.pdf](https://github.com/user-attachments/files/19878937/OS_4._.pdf)
+- [OS_4주차_최예빈.pdf](https://github.com/user-attachments/files/19878936/OS_4._.pdf)
+</details>
+
+
+<details>
+  <summary>5주차 : OSI 7 계층 & TCP/IP 모델_250423</summary>
+👤 발표자 : `권채린`, `박윤아`
+
+📂 발표 자료
+- [NT_5주차_권채린.pdf](https://github.com/user-attachments/files/19878945/NT_5._.pdf)
+- [NT_5주차_박윤아.pdf](https://github.com/user-attachments/files/19878948/NT_5._.pdf)
+
+</details>
+
