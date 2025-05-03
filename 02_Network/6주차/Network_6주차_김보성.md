@@ -163,7 +163,7 @@
 
 ### 💡 왜 HTTP/3는 UDP를 사용하나요?
 
-![https://gngsn.tistory.com/234](attachment:61ccaf83-2cd9-4ed6-a1bf-29a5917f6ae6:image.png)
+<img width="557" alt="image" src="https://github.com/user-attachments/assets/fbb5d4f6-df0f-4c9c-8f9a-82b71db15e90" />
 
 https://gngsn.tistory.com/234
 
@@ -210,7 +210,8 @@ https://gngsn.tistory.com/234
 
 ### 3-Way Handshake
 
-![image.png](attachment:5b5e4076-8cb0-408a-9c40-faa6f25b3d70:image.png)
+![image](https://github.com/user-attachments/assets/89e24852-daea-4d3d-86e7-6f91041ab533)
+
 
 - **TCP 연결을 수립할 때 사용하는 3단계 절차**
 - 클라이언트와 서버가 **서로의 존재를 확인하고**, **데이터를 주고받을 준비가 되었는지** 확인하는 과정
@@ -291,7 +292,8 @@ TCP는 연결 수립 시에는 3단계(3-Way Handshake), **연결 종료 시에�
 
 ### 📦 각 단계 설명
 
-![https://seongonion.tistory.com/74](attachment:b0d7d57a-3e44-4c4b-acd0-5a7023869a23:image.png)
+<img width="533" alt="image" src="https://github.com/user-attachments/assets/090fdb83-ec71-43d1-8b07-f7252af53596" />
+
 
 https://seongonion.tistory.com/74
 
