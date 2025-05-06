@@ -1,8 +1,8 @@
 # TCP, UDP, 흐름 제어 / 흐름 제어
 
 ## TCP, UDP 특징
+![image](https://github.com/user-attachments/assets/f25c4fcf-3fee-4e8e-8bb8-9a90440f34f5)
 
-![image.png](attachment:8950eba9-9c4e-4d89-9da9-c1da39d6d793:image.png)
 
 ### TCP (Transmission Control Protocol)
 
@@ -101,11 +101,13 @@ Q) 흐름제어(Flow Control)와 혼잡제어(Congestion Control)이란?
 
 ## TCP VS UDP
 
-![image.png](attachment:9f0b99b6-8d42-4f8a-a511-75e86d41fdcb:image.png)
+![image2](https://github.com/user-attachments/assets/c24999da-94ab-44dd-8e4f-f58e02e2b933)
+
 
 ## TCP의 신뢰성 보장 메커니즘 : Sequence Number, ACK, 재전송, 타이머 등
 
-![image.png](attachment:530282b7-ab05-445a-8454-03148768b9a6:image.png)
+![image3](https://github.com/user-attachments/assets/250945b5-0589-4a37-b2a4-f87bdc2dadf2)
+
 
 **Sequence Number([순서 번호](http://terms.naver.com/entry.nhn?docId=2271842&ref=y)) :**
 
@@ -115,7 +117,8 @@ Acknowledgement Number(응답 번호) :
 
 수신 프로세스가 제대로 수신한 바이트의 수를 응답하기 위해 사용한다. 필드 값은 ACK 플래그 비트가 지정된 경우에만 유효하며, 다음에 수신을 기대하는 데이터의 순서 번호를 표시해야 한다. ACK 응답을 받은 송신 프로세스는 Acknowledgement Number-1까지의 모든 데이터가 올바로 전송되었음을 확인할 수 있다. 연결 설정이나 연결 해제처럼 데이터 세그먼트가 없는 경우에도 순서 번호가 1씩 증가한다.
 
-![image.png](attachment:ee140978-2ac1-4ced-9e07-35048eb76cb1:image.png)
+![image4](https://github.com/user-attachments/assets/dfd70f1c-32be-4d97-940a-3618d73d7f48)
+
 
 SYN : Synchronize
 
@@ -134,7 +137,8 @@ TCP는 **3-way handshake**라는 과정을 통해 연결
 3. **클라이언트 → 서버 : ACK**
     - "모든 준비 완료! 이제 데이터 주고받자!"
 
-![image.png](attachment:29ac5403-50be-4fc6-af09-520373f18e03:image.png)
+![image5](https://github.com/user-attachments/assets/aacebd5b-ce84-45c4-9d4b-94bc02091f93)
+
 
 위 사진과 같이 수신한 패킷의 Sequence Number와 Data의 크기에 따라 ACK 번호가 결정되게 되는데 결정할 때 사용하는 공식은 **"SEQ + (Data Size)"** 이다.
 
@@ -146,7 +150,9 @@ TCP는 **3-way handshake**라는 과정을 통해 연결
 
 ### 타이머
 
-![image.png](attachment:cd10d39a-0324-4d2a-8570-9b130a4a1496:image.png)
+![image6](https://github.com/user-attachments/assets/222be476-f41c-4d01-b92a-f3b162a19773)
+
+
 
 ### **Retransmission Timer (재전송 타이머)**
 
@@ -227,7 +233,8 @@ TCP는 **3-way handshake**라는 과정을 통해 연결
     - 윈도우란 전송, 수신 스테이션 양쪽에서 만들어진 버퍼의 크기를 이야기 한다.
     - 윈도우의 크기 - (가장 최근 ACK로 응답한 프레임 수 ) - (이전에 ACK 프레임을 보낸 프레임 수)
 
-![image.png](attachment:e14517c3-73f1-4723-9059-9f4b6386c122:image.png)
+![image7](https://github.com/user-attachments/assets/da7a7fa6-cdcb-4137-beb5-e489a5f6a9c9)
+
 
 송신 측에서는 1~5까지의 프레임이 전송이 가능합니다. 따라서 1~5까지를 window에 담습니다. 그리고 먼저 1, 2를 전송하게 됩니다. 그럼 송신측의 윈도우는 (이미지에는 표현되지 않았지만) 3, 4, 5만큼 윈도우의 크기가 줄어듭니다.
 
@@ -328,14 +335,10 @@ TCP는훨씬 정교하다. TCP는 연결형 프로토콜이다. 데이터를 보
 3. 목적지 IP 주소
 4. 목적지 포트 번호
 
-![image.png](attachment:cd251e69-a4fa-4888-b6fb-5b8d870746ce:image.png)
+<img width="417" alt="image8" src="https://github.com/user-attachments/assets/1312f4fb-fd7c-409d-a577-2fdf9b3f8081" />
 
-```
+
+
 이 둘은 모두 동일한 서버 IP와 포트로 연결을 시도하지만, 출발지 IP가 다르다. 두 연결은 모두 목적지 포트 80이지만, 4-tuple 전체가 다르기 때문에 TCP는 이를 서로 다른 연결로 처리한다.
-```
 
-출처:
 
-https://laurent.tistory.com/entry/Network-multiplexing-demultiplexing
-
-[나무보다 숲을:티스토리]
