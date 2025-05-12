@@ -15,15 +15,15 @@
     - 8비트 단위로 점을 찍어 4개로 구분(8비트이 단위를 옥텟이라고도 함)
     - 이 주소체계만으로 부족하기 때문에 NAT, 서브네팅과 같은 부수적인 기술이 필요
 
-![img.png](img.png)
+![img.png](https://velog.velcdn.com/images/leesfact/post/5f965c80-65f0-4cc9-ad8f-9a0187ee01cb/image.png)
 
 2. IPv6 :
     - 128비트, 2^128개의 주소 표현(많은 주소 처리 가능하며 NAT, 서브네팅이 필요하지 않음)
     - 16비트 8개로 구분, 16비트는 16진수로 변환되어 콜론(:)으로 구분, 앞의 연속된 0은 생략 가능
     - 앞 64비트 - 네트워크 주소, 뒤 64비트 - 인터페이스 주소
 
-![img_1.png](img_1.png)
-![img_2.png](img_2.png)
+![img_1.png](https://velog.velcdn.com/images/leesfact/post/066819ef-bb3d-4ab4-bb3b-ad62f56dd575/image.png)
+![img_2.png](https://velog.velcdn.com/images/leesfact/post/f4fb4318-68c5-43fd-9c6c-97f55839a748/image.png)
 
 | 특징      | 	IPv4                        | 	IPv6                                                     |
 |---------|------------------------------|-----------------------------------------------------------|
@@ -36,13 +36,13 @@
 | 헤더 크기   | 	20바이트                       | 	40바이트                                                    |
 | 프래그멘테이션 | 	송신자와 라우터가 처리                | 	송신자가 처리                                                  |
 
-![img_3.png](img_3.png)
+![img_3.png](https://velog.velcdn.com/images/leesfact/post/d0447866-7891-4d9a-8624-e11b7f6694fd/image.png)
 
 ### MAC 주소
 
 - 네트워크 인터페이스 카드(NIC)에 할당된 고유 식별자
 
-![img_4.png](img_4.png)
+![img_4.png](https://velog.velcdn.com/images/leesfact/post/c7dd7627-efcf-4cda-a002-9e46830f07fd/image.png)
 
 - MAC 주소는 데이터 링크 계층에서 사용되며 네트워크 내의 물리적 장치를 식별
 - 48비트 주소 체계를 사용하며 12자리의 16진수로 표현
@@ -134,7 +134,7 @@ v
 
 ### TLS 핸드세이크 (TLS 1.3 기준)
 
-![img_5.png](img_5.png)
+![img_5.png](https://velog.velcdn.com/images/leesfact/post/3c100129-4cc3-407a-baeb-da7d7e845561/image.png)
 
 1. Client Hello
     - 클라이언트가 서버에 메시지 전송
@@ -194,11 +194,11 @@ v
 - URL 길이에 제한이 있어 전달할 수 있는 데이터의 크기가 제한됨(2000자 미만)
 - GET 요청은 서버의 상태를 변경하지 않으므로 안전
 
-![img_6.png](img_6.png)
+![img_6.png](https://velog.velcdn.com/images/leesfact/post/e7286095-3851-4c9a-90ed-7b7b391bd573/image.png)
 
 `GET 요청 예시`
 
-![img_7.png](img_7.png)
+![img_7.png](https://velog.velcdn.com/images/leesfact/post/52a43faa-8ac7-4a77-bb55-ab1d0797d4c7/image.png)
 
 #### POST Method
 
@@ -209,7 +209,7 @@ v
 - 본문을 통해 데이터를 전달하므로 GET보다 훨씬 큰 데이터를 보낼 수 있음
 - POST 요청은 서버의 상태를 변경할 수 있으므로 안전하지 않음
 
-![img_8.png](img_8.png)
+![img_8.png](https://velog.velcdn.com/images/leesfact/post/76e57f9b-dbcf-4910-b390-78db9c7613c6/image.png)
 
 ### PUT과 PATCH의 차이
 
@@ -258,7 +258,7 @@ v
 
 ## 도메인 네임을 입력했을 때 생기는 과정 그리고 DNS
 
-![img_9.png](img_9.png)
+![img_9.png](https://velog.velcdn.com/images/leesfact/post/1679fc84-c71a-47d1-ae82-d7c6171c136a/image.png)
 
 - 리다이렉트, 캐싱, DNS, IP 라우팅 & ARP, TCP 연결 구축을 거쳐 요청, 응답이 일어나는 TTFB(Time to First Byte)가 시작되고 이 후 컨텐츠를 다운받아 브라우저 렌더링 과정을 거쳐
   네이버라는 화면이 나타나게 됨
@@ -274,7 +274,7 @@ v
     - 이를 통해 성능을 향상시키고 서버 부하를 줄일 수 있음
 - 캐싱은 `브라우저 캐시`와 `공유 캐시`로 나눌 수 있음
 
-![img_10.png](img_10.png)
+![img_10.png](https://velog.velcdn.com/images/leesfact/post/4d7f9824-d905-4dc1-8842-5d4b590a091a/image.png)
 
 1. 브라우저 캐시(private cache)
 
@@ -286,7 +286,7 @@ v
 - 프록시 서버나 CDN(Content Delivery Network) 등 중간 서버가 요청된 리소스를 저장
     - 여러 사용자가 동일한 리소스를 요청할 때, 원 서버에 요청을 보내지 않고 프록시 서버에서 직접 응답
 
-![img_11.png](img_11.png)
+![img_11.png](https://velog.velcdn.com/images/leesfact/post/11414bdb-2072-4481-95e6-a73ec217e2ff/image.png)
 
 ### DNS(Domain Name System)
 
@@ -298,7 +298,7 @@ v
 [Root DNS] → [.com DNS] → [.github DNS] → [.www DNS] 과정을 거쳐 완벽한 주소를 찾아 IP 주소를 매핑
 ```
 
-![img_12.png](img_12.png)
+![img_12.png](https://velog.velcdn.com/images/leesfact/post/8e05c6a1-6286-47dc-84bf-9b4251c98aa0/image.png)
 
 #### DNS 캐싱
 
@@ -345,7 +345,7 @@ v
 
 `HTTP 헤더를 통해 쿠키 정보를 주고 받음`
 
-![img_13.png](img_13.png)
+![img_13.png](https://velog.velcdn.com/images/leesfact/post/08f3e52b-5a7f-4624-bca3-3aad3d505b26/image.png)
 
 <br />
 
