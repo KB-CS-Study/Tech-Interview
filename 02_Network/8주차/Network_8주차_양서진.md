@@ -110,7 +110,7 @@ L7 Load Balancer는 L7 위에서 동작하기 때문에 IP, Port 이외에도 
 
 ## DNS로 하는 로드벨런싱
 
-![image.png](attachment:44de331e-2aa2-4215-9b29-e529db1ef960:image.png)
+![image3](https://github.com/user-attachments/assets/8c8606b3-d0e7-4061-9b4d-df5e165fcf81)
 
 별도의 SW, HW 로드벨런싱 장비를 이용하지 않고 DNS를 이용하여 도메인 정보를 조회하는 시점에서 다른 IP 정보를 통해 트래픽을 분산하는 기법.
 
@@ -232,7 +232,7 @@ WAS 서버는 웹 애플리케이션을 실행하여 동적 콘텐츠를 생성�
 
 ## 웹/WAS를 왜 분리해서 쓰는가?
 
-![Uploading image5.png…]()
+![image5](https://github.com/user-attachments/assets/0c42086f-40d7-4019-a75e-18ce2522882c)
 
 
 책임을 분배함으로서 더욱 유지보수하기 좋은 서비스를 만들고, 심지어 보안 성능 이슈까지 대응할 수 있다.
