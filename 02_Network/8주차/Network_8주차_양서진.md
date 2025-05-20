@@ -37,13 +37,16 @@ Dynamic Source Routing protocol (DSR)
 
 요청에 대한 응답을 할 때 로드벨런서가 아닌 클라이언트의 IP로 응답
 
-![image.png](attachment:2225a594-b937-4f28-9a00-1972cfa39625:image.png)
+
+<img width="539" alt="image" src="https://github.com/user-attachments/assets/b7751f12-0c60-410e-82b1-e3cda4e43362" />
+
 
 하위 계층으로 갈수록 간단한 부하 분산이 가능, 가격이 비싸짐
 
 상위 계층으로 갈수록 가격이 비쌌지만 현재 점점 가격 차이가 줄어드는 추세이기에 L7을 주로 사용한다.
 
-![image.png](attachment:c1e9712e-9ed1-4073-9511-1954ae86713d:image.png)
+![image2](https://github.com/user-attachments/assets/e28e59ab-e8af-4ca5-af8f-1c097f159cb9)
+
 
 L4 Load Balancer 는 IP, Port 를 기준으로 스케줄링 알고리즘을 통해 부하를 분산한다.
 
@@ -173,7 +176,8 @@ DNS 부하 분산은 애플리케이션 계층 7의 DNS 수준에서 작동하�
 
 ## 웹 서버와 WAS의 역할 비교
 
-![image.png](attachment:f7089527-123e-4d0c-9cf5-561918caf118:image.png)
+![image4](https://github.com/user-attachments/assets/c5ec74b2-56d4-41b4-8a88-983f3b347b6c)
+
 
 ### 웹 서버와 WAS 서버 비교
 
@@ -228,6 +232,7 @@ WAS 서버는 웹 애플리케이션을 실행하여 동적 콘텐츠를 생성�
 
 ## 웹/WAS를 왜 분리해서 쓰는가?
 
-![image.png](attachment:46bf99ab-87a2-4c01-a3d2-32791910263b:image.png)
+![Uploading image5.png…]()
+
 
 책임을 분배함으로서 더욱 유지보수하기 좋은 서비스를 만들고, 심지어 보안 성능 이슈까지 대응할 수 있다.
