@@ -1,6 +1,6 @@
 ## ✅ 1. 기본키 / 후보키 / 외래키
 
-![image.png](attachment:73a4a30b-3b81-48b3-ad98-00267b321df9:image.png)
+<img width="669" alt="image" src="https://github.com/user-attachments/assets/30859dde-38cc-46a6-a45d-7ba02cb34fa4" />
 
 - 유일성: 하나의 키값으로 튜플을 유일하게 식별할 수 있는 성질을 의미함(중복X)
 - 최소성: 키를 구성하는 속성들 중 꼭 필요한 최소한의 속성들로만 키를 구성하는 성질
@@ -118,7 +118,8 @@
 
 ### 계층 구조
 
-![image.png](attachment:e9cda30a-838e-49dc-a760-a13594bb8b79:image.png)
+<img width="805" alt="image" src="https://github.com/user-attachments/assets/94712850-59b2-4793-a7c4-4ff7e408193a" />
+
 
 1. **외부 스키마 (External Schema)**
     - 사용자/앱 관점에서 보는 데이터 구조 (View)
@@ -154,7 +155,8 @@
 
 ### 구조
 
-![image.png](attachment:033e213b-f2cc-474b-8ed9-50c668fdab24:image.png)
+<img width="789" alt="image" src="https://github.com/user-attachments/assets/fa148eb5-061f-484f-a3c5-7db8c83b1fbf" />
+
 
 ```
       [10 | 20]
