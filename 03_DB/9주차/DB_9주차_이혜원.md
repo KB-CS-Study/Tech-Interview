@@ -1,10 +1,7 @@
-✔ 스터디 주제: 키(Key) + RDB vs NoSQL + 스키마 + 인덱스 + 정규화
-
-기초 총정리!
-
 ### 기본키/후보키/외래키 차이
 
-![image.png](attachment:f263f5f0-e2a4-4ff6-a44e-b30f73a8d78b:image.png)
+<img width="482" alt="image" src="https://github.com/user-attachments/assets/d67d45f6-44b8-44d9-9106-bebc59716ac5" />
+
 
 - **기본 키 (Primary Key)**
     - 정의 : 테이블 내에서 각 행(Row)을 **유일하게 식별**하기 위해 사용되는 키.
@@ -120,7 +117,8 @@
 
 - 인덱스의 개념
 
-  ![](https://velog.velcdn.com/images/hyeni/post/4ea8ed4a-2d56-439a-be83-647374f31340/image.png)
+<img width="534" alt="image" src="https://github.com/user-attachments/assets/bc76c0a6-bce9-49f7-94e6-f0f0850041f2" />
+
 
 - 인덱스의 장점
     - 검색 속도 향상
