@@ -53,8 +53,7 @@
     - 서버는 사용자의 역할(ROLE_USER, ROLE_ADMIN)에 따라 요청 허용/거부
 
 ### **해시 함수 (Hash Function)**
-
-![image.png](attachment:68a60d0c-780a-408d-a609-b6b62a33513f:image.png)
+![스크린샷 2025-06-23 오후 10 58 59](https://github.com/user-attachments/assets/db9b6e70-1923-459d-bfd1-9a8af28675d6)
 
 - 입력값 → 고정된 길이의 **암호화된 값**(해시값)으로 변환
 - 특징: 단방향성, 충돌 회피, 고정 길이 출력
